@@ -1,0 +1,42 @@
+.home{
+    background-image: url(../../images/home_bienvenido.jpg);
+    overflow: hidden;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.home_welcome{
+    background-color: rgba(167, 167, 167, 0.295);
+    height: 270px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px 1px rgb(102, 102, 102);
+}
+
+.home_title{
+    text-align: center;
+    font-style: italic;
+}
+
+.home_title h1{
+    font-size: 72px;
+}
+
+.home_title h2{
+    font-size: 25px;
+}
+
+.home_boton{
+    border-radius: 18px;
+    background-color: #7bf39bb2;
+    width: 15%;
+    text-align: center;
+    padding: 5px;
+}
+
+.home_boton a{
+    display: block;
+    color: rgb(34, 34, 34);
+}
