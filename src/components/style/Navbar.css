@@ -1,0 +1,45 @@
+header{
+    
+}
+
+.header-barra{
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-barra h1{
+    font-size: 3em;
+    font-style: italic;
+    margin: 0;
+}
+
+.header-barra ul{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.header-barra ul li{
+    font-size: 20px;
+}
+
+.header-barra ul li a{
+    color: black;
+}
+
+.header-barra ul li:last-child{
+    border-radius: 15px;
+    width: 135px;
+    text-align: center;
+    background-color: #70BEE7;
+}
+
+
+.barra{
+    height: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 13px 0px;
+    background-color: #70bee7;
+}

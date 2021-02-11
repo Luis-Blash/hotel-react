@@ -1,6 +1,5 @@
 import React from 'react';
 import './style/home.css'
-import img_Bienvenido from '../images/home_bienvenido.jpg'
 
 // componetes clases
 class Home extends React.Component{

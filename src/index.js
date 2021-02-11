@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Navbar from './components/Navbar';
 // estilos
 import './global.css'
 //App
-import Home from './components/Home'
+import Home from './pages/HomePage'
 
 // contenedor
 const container = document.getElementById("app");
 
-ReactDOM.render(<Home/>,container);
+ReactDOM.render(<Navbar/>,container);
