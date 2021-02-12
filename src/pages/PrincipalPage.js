@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import SelectSearch from '../components/SelectSearch';
+import BrowserSearch from '../components/BrowserSearch';
 
 // componetes clases
 class Principal extends React.Component{
@@ -9,7 +9,7 @@ class Principal extends React.Component{
             <React.Fragment>
                 <Navbar/>
                 <div className="container">
-                    <SelectSearch/>
+                    <BrowserSearch/>
                 </div>
             </React.Fragment>
         );

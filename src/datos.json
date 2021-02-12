@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "img": "./images/home_bienvenido",
+        "title": "Hotel Sunroute Plaza Shinjuku",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae arcu eu ex ullamcorper venenatis.",
+        "price": 1399,
+        "location": "Japon"
+    },
+    {
+        "id":2,
+        "img": "./images/home_bienvenido",
+        "title": "Hotel Monterey",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae arcu eu ex ullamcorper venenatis.",
+        "price": 1399,
+        "location": "Mexico"
+    },
+    {
+        "id":3,
+        "img": "./images/home_bienvenido",
+        "title": "Hyatt Regency Paris Etoile",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae arcu eu ex ullamcorper venenatis.",
+        "price": 1399,
+        "location": "Francia"
+    },
+    {
+        "id":4,
+        "img": "./images/home_bienvenido",
+        "title": "Riu Plaza Miami Beach",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae arcu eu ex ullamcorper venenatis.",
+        "price": 1399,
+        "location": "US"
+    },
+    {
+        "id":5,
+        "img": "./images/home_bienvenido",
+        "title": "Grand Hyatt Sanya Haitang Bay Resort and Spa",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae arcu eu ex ullamcorper venenatis.",
+        "price": 1399,
+        "location": "China"
+    },
+    {
+        "id":6,
+        "img": "./images/home_bienvenido",
+        "title": "The Novotel Toronto Centre",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae arcu eu ex ullamcorper venenatis.",
+        "price": 1399,
+        "location": "Canada"
+    },
+    {
+        "id":7,
+        "img": "./images/home_bienvenido",
+        "title": "Riu Plaza España",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae arcu eu ex ullamcorper venenatis.",
+        "price": 1399,
+        "location": "España"
+    }
+]
