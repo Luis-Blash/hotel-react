@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './global.css';
 
-import App from './pages/PrincipalPage'
+import App from './components/App';
 
 // contenedor
 const container = document.getElementById("app");
