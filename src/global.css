@@ -12,6 +12,12 @@ ul{
     padding: 0;
 }
 
+.container{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70%;
+}
+
 .flex-center{
     display: flex;
     align-items: center;
