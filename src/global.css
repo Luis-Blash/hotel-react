@@ -12,9 +12,19 @@ ul{
     padding: 0;
 }
 
+header{
+    height: 95px;
+}
+
+footer{
+    height: 150px;
+}
+
+.container{
+    min-height: calc(100vh - 95px - 140px);
+}
 .container{
     margin: 0 auto;
-    margin-top: 45px;
     width: 70%;
 }
 
