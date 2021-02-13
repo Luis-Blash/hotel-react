@@ -1,12 +1,9 @@
 import React from 'react';
 import datos from '../datos.json';
+import CardHoteles from './CardHoteles';
 import './style/BrowserSearch.css';
 
-function isSearched(searchTerm) {
-    return function(item) {
-        return item.title.toLowerCase().includes(searchTerm.toLowerCase()); 
-    }
-}
+
 
 class BrowserSearch extends React.Component{
     constructor(props){
@@ -34,17 +31,10 @@ class BrowserSearch extends React.Component{
                         onChange={this.onSearchChange}
                         />
                     </form>
+                    <CardHoteles list={this.state.list} pattern={this.state.searcTerm}/>
                 </div>
             </React.Fragment>
         );
     }
 }
-
-/*
-{this.state.list.filter(isSearched(this.state.searcTerm)).map(item =>{
-        return(
-            <p>{item.title}</p>
-        );
-})}
-*/
 export default BrowserSearch;
