@@ -1,0 +1,66 @@
+.collection-iteam{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-hotel{
+    border:solid #ccc;
+    border-radius: 15px;
+    flex-basis: calc(30% - 1rem);
+    height: 450px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.hotel-img{
+    border-radius: 15px;
+}
+
+
+.hotel-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hotel-word{
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+}
+
+.hotel-title{
+    flex: 1 1 auto;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.hotel-title h2{
+    font-size: 1.1em;
+}
+
+.hotel-title p{
+    font-size: 1.1em;
+}
+
+
+.hotel-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.hotel-footer span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-hotel{
+    background-color: #70bee7;
+    width: 80px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.btn-hotel a{
+    color: black;
+}

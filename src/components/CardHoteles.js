@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img from '../images/cuartoBlanco1.jpg'
+import './style/CardHoteles.css';
+import img from '../images/cuartoBlanco1.jpg';
 
 function isSearched(searchTerm) {
     return function(item) {
@@ -26,8 +27,8 @@ class CardHoteles extends React.Component{
                                         <p>{item.description}</p>
                                     </div>
                                     <div className="hotel-footer">
-                                        <span>MXN ${item.price}</span>
-                                        <div className="boton-hotel">
+                                        <span>MXN${item.price}</span>
+                                        <div className="btn-hotel">
                                             <Link to="/hotel">Detalles</Link>
                                         </div>
                                     </div>
