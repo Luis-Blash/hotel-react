@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style/Navbar.css';
 
 class Navbar extends React.Component{
@@ -7,11 +8,11 @@ class Navbar extends React.Component{
             <React.Fragment>
                 <header>
                     <div className="header-barra">
-                        <h1>Hotel Rolife</h1>
+                        <h1><Link to="/">Hotel Rolife</Link></h1>
                         <ul>
-                            <li><a href="">Ayuda</a></li>
-                            <li><a href="">Ofertas</a></li>
-                            <li><a href="">Iniciar sesion</a></li>
+                            <li><Link to="/No">Ayuda</Link></li>
+                            <li><Link to="/No">Ofertas</Link></li>
+                            <li><Link to="/No">Iniciar sesion</Link></li>
                         </ul>
                     </div>
                     <div className="barra"></div>

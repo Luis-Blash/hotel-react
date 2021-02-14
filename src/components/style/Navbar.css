@@ -11,7 +11,9 @@
     font-style: italic;
     margin: 0;
 }
-
+.header-barra h1 a{
+    color: black;
+}
 .header-barra ul{
     display: flex;
     justify-content: space-around;

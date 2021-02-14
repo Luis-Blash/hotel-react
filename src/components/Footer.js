@@ -8,9 +8,9 @@ class Footer extends React.Component{
             <React.Fragment>
                 <footer>
                     <div className="footer-text">
-                        <Link to="">Contactanos</Link>
+                        <Link to="/No">Contactanos</Link>
                         <h2>Hotel Rolife</h2>
-                        <a href="htpps://twitter/luisblash3">Luis-Blash</a>
+                        <Link to="/twitter">Luis-Blash</Link>
                     </div>
                 </footer>
             </React.Fragment>

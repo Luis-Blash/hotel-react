@@ -29,7 +29,7 @@ class CardHoteles extends React.Component{
                                     <div className="hotel-footer">
                                         <span>MXN${item.price}</span>
                                         <div className="btn-hotel">
-                                            <Link to="/hotel">Detalles</Link>
+                                            <Link to="/No">Detalles</Link>
                                         </div>
                                     </div>
                                 </div>

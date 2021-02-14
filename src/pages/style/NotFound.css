@@ -1,0 +1,33 @@
+.notfound{
+    border: solid black;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 110, 110);
+    overflow: hidden;
+}
+
+.center{
+    flex-basis: 35%;
+    text-align: center;
+    transition: ease all 1s;
+}
+
+.center:hover{
+    transform:translateY(-5%) ;
+}
+
+.center p{
+    margin: 0%;
+    font-size: 35px;
+    color: blanchedalmond;
+    font-style: italic;
+    
+}
+
+.center a img{
+    border: solid #ccc;
+    width: 100%;
+    border-radius: 15px;
+}
