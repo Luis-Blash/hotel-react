@@ -1,6 +1,6 @@
 # React Hotel 🏨
 
-![alt react_hotel](https://github.com/Luis-Blash/to-do-list/blob/main/images/backend/put_tarea.png "put_tarea")
+![alt react_hotel](https://raw.githubusercontent.com/Luis-Blash/hotel-react/main/hotel.png "hotel_react")
 
 Un proyecto usando por primera vez usando [React](https://github.com/facebook/create-react-app).
 
