@@ -1,5 +1,7 @@
 # React Hotel 🏨
 
+![alt react_hotel](https://github.com/Luis-Blash/to-do-list/blob/main/images/backend/put_tarea.png "put_tarea")
+
 Un proyecto usando por primera vez usando [React](https://github.com/facebook/create-react-app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
